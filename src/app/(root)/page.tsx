@@ -1,8 +1,13 @@
+import React from 'react';
+import { FC } from 'react';
+import UsersTable from './components/UsersTable/UsersTable';
 
-export default function Home() {
+const HomePage: FC = () => {
   return (
-    <main className="">
-      <h1>Home</h1>
-    </main>
+    <div>
+      <UsersTable />
+    </div>
   );
-}
+};
+
+export default HomePage;
