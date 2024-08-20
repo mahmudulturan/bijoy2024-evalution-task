@@ -15,7 +15,7 @@ const SocialLogin: FC = () => {
                     className='w-full px-4 py-2 bg-transparent hover:bg-slate-100 border rounded-md my-6 font-medium duration-100 flex items-center justify-center gap-2'
                 >
                     <FaGoogle />
-                    Sign in with Google
+                    Google
                 </button>
             </div>
         </div>
