@@ -15,7 +15,7 @@ const LoginPage: FC = () => {
                 <LoginForm />
                 <SocialLogin />
                 <div>
-                    <p className='text-black/60 text-center'>Don't have an account? <Link href={"#"}><span className='font-medium text-black/80 hover:text-black/90 duration-100'>Sign up</span></Link></p>
+                    <p className='text-black/60 text-center'>Don't have an account? <Link href={"/sign-up"}><span className='font-medium text-black/80 hover:text-black/90 duration-100'>Sign up</span></Link></p>
                 </div>
             </div>
         </div>
