@@ -7,7 +7,7 @@ import Link from 'next/link';
 const LoginPage: FC = () => {
     return (
         <div className='wrapper min-h-screen flex items-center justify-center'>
-            <div className='max-w-lg w-full mx-auto py-6 px-4'>
+            <div className='max-w-lg w-full mx-auto py-6 md:px-4'>
                 <div className='text-center space-y-2'>
                     <h3 className='text-3xl font-bold'>Sign in to your account</h3>
                     <p>Or <Link href={"#"}><span className='font-medium hover:text-black/70 duration-100'>start your 14-day free trial</span></Link></p>
